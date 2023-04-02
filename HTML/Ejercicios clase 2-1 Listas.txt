@@ -1,0 +1,56 @@
+<html>
+<head> <title> Listas</title></head>
+<body>
+  <hr>
+  <h1> Canciones que me gustan</h1>
+ 
+  <ol>
+    <li>Bohemian Rhapsody</li>
+    <li>Desarma y Sangra</li>
+    <li>Eiti-Leda</li>
+    <li>Innuendo</li>
+    <li>Sable chino</li>
+  </ol>
+   <hr> 
+   <hr>
+  <h1> Tres objetivos a cumplir</h1>
+ 
+  <ul>
+    <li>Poder trabajar de programador</li>
+    <li>Desempeñarme como artista multimedial</li>
+    <li>Casarme y viajar mucho!</li>
+  </ul>
+   <hr> 
+   <hr>
+   <h1>Etiquetas</h1>
+ 
+  <dl>
+    <dt>abbr:</dt>
+    <dd> Es para que muestre un texto si pones el mouse en las palabras abreviadas </dd>
+    
+     <dt>h1,2,3,3,etc:</dt>
+    <dd>Son titulos, a medida que se agranda el numero es mas chica la letra</dd>
+    
+     <dt>p:</dt>
+    <dd>Es para parrafos 
+      <ul>
+      <li>Atributo lang:(lang="es") Es para indicar el lenguaje del parrafo</li>
+        <li>Atributo class: (class= "prueba") define una clase de parrafos (p) a la que se puede referir luego</li>
+      
+    </ul>
+      
+    </dd>
+    
+    
+    <dt>br:</dt>
+    <dd>La etiqueta br produce un salto de línea en el texto (retorno de carro).No tiene etiqueta de cierre, lo que está a continuación de la etiqueta , se mostrará en la siguiente línea.</dd>
+    
+     <dt>strong: </dt>
+    <dd>La etiqueta  define texto con fuerte importancia. Usualmente se verá en negrita. </dd>
+  </dl>
+   <hr> 
+  
+  
+  </body>
+  
+  </html>

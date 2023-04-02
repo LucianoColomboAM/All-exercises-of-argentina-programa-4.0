@@ -1,0 +1,41 @@
+h2.Principal{
+ weight:'15';
+  font-family:Georgia;
+  font-size: 40px;
+  text-decoration:underline;
+  text-align:center;
+}
+
+
+p{
+  color:blue;
+  weight:'5';
+  text-align:justify;
+}
+
+h3.FE{
+  color:red;
+  weight:'10';
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+
+h3.BE{
+  color:yellow;
+  weight:'10';
+  font-family:Verdana;
+  font-size: 20px;
+  
+}
+section p{
+  color:green;
+  weight:'5';
+  text-align:justify;
+  font-family:Courier;
+}
+section h3{
+  color:brown;
+  font-size:15px;
+  font-family:Arial;
+}

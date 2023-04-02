@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Imagenes</title>
+</head>
+<body>
+<center><h1>Ejercicio 1</h1></center>
+<hr>
+<h2> Menu del restaurante</h2>
+
+<dl>
+<dt>Entradas</dt>
+
+	<dd>Ensaladita</dd>
+<img alt="Ensalada rusa" src="ensalada.jpg">
+	<dd>Papitas</dd>
+<img alt="Papas dips" src="papas.jpg">
+
+<dt>Platos Principales</dt>
+
+	<dd>Milanesa</dd>
+<img alt="Milanesa con pure" src="milanesa.jpg">
+	<dd>Asado</dd>
+<img alt="Corte de asado" src="asado.jpg">
+	<dd>Pizza</dd<
+<img alt="Pizza napolitana" src="pizza.jpg">
+<dt>Postres</dt>
+
+	<dd>Cheesecake</dd>
+<img alt="Cheesecake" src="cheesecake.jpg">
+	<dd>Red Velvet</dd>
+<img alt="Red Velvet" src="redvelvet.jpg">
+</dl>
+
+<hr>
+<center><h1>Ejercicio 2</h1></center>
+<hr>
+
+<h2>Album de fotos</h2>
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption>foto</figcaption>
+</figure>
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption>foto </figcaption>
+</figure>
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption> foto</figcaption>
+</figure>
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption> foto</figcaption>
+</figure>
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption> foto</figcaption>
+</figure>
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption> foto</figcaption>
+</figure>
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption>foto </figcaption>
+</figure>
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption>foto </figcaption>
+</figure>
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption>foto </figcaption>
+</figure>
+
+
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption>foto </figcaption>
+</figure>
+
+<figure>
+<img src="foto.jpg" alt ="foto">	
+<figcaption>foto</figcaption>
+</figure>
+
+
+</body>
+</html>

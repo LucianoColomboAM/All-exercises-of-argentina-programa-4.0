@@ -1,0 +1,17 @@
+<html>
+<head> <title> Primera Clase</title></head>
+<body>
+  <h1>Primera Clase</h1>
+  <hr>
+  <h2> Tres conceptos de la primer clase </h2>
+  <br>
+  <h3> Backend</h3>
+  <p> <strong>Procesa la información que alimentará  el  frontend  de datos.</strong> Es la capa de acceso a los datos,    es    la lógica tecnológica  que  hace  que una página web funcione.</p>
+<hr>
+  <h3> Frontend</h3>
+  <p>Es  la  parte  del  desarrollo web  que  se  dedica  a  la parte  frontal  de  un  sitio web, del diseño de un sitio web, <em> desde  la estructura hasta  los estilos  como colores,  fondos,  tamaños, animaciones y efectos.</em> </p>
+<hr>
+  <h3><abbr title="HyperText Markup Language"> HTML</abbr></h3>
+  <p> Define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. </p>
+</body>
+</html>

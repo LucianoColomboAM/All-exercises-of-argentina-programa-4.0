@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Tablas</title>
+</head>
+<body>
+<center><h1>Ejercicio 1</h1></center>
+
+<table border = 1px>
+
+<tr><td colspan = 9>Variaciones de noviembre con respecto a diciembre de 2021, segun bienes y servicios. Total nacional y regones</td></tr>
+  <tr>
+    <td rowspan = 2 colspan = 2>Nivel general, bienes y servicios</td>
+    <td rowspan = 2>Nacional</td>
+    <td colspan = 6>Region Geografica del pais</td>
+  <tr>
+    
+    <td>Gba</td>
+    <td>Pampeana</td>
+    <td>Noroeste</td>
+    <td>Noreste</td>
+    <td>Cuyo</td>
+    <td>Patagonia</td>
+  </tr>
+    </tr> 
+  <tr>
+    <td colspan=9>Porcentaje</td>
+  </tr>
+  <tr>
+    <td colspan=2>Nivel general</td>
+    <td>85,3</td>
+    <td>85,3</td>
+    <td>84,8</td>
+    <td>87,0</td>
+    <td>86,4</td>
+    <td>85,1</td>
+    <td>85,8</td>
+  </tr>
+  <tr>
+    <td colspan=2>Bienes</td>
+    <td>88,2</td>
+    <td>88,2</td>
+    <td>88,2</td>
+    <td>87,8</td>
+    <td>88,6</td>
+    <td>87,7</td>
+    <td>89,3</td>
+  </tr>
+  <tr>
+    <td colspan=2>Servicios</td>
+    <td>77,7</td>
+    <td>79,9</td>
+    <td>74,3</td>
+    <td>83,7</td>
+    <td>78,6</td>
+    <td>77,0</td>
+    <td>74,4</td>
+  </tr>
+  
+</table>
+
+</body>
+</html>
