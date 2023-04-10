@@ -1,0 +1,129 @@
+El ejercicio 8 fue editar un codigo en codepen.io asi que escribire aqui abajo los 3 apartados.
+
+HTML.
+
+<table>
+  <tr>
+    <td id="celda1" onclick="tocarCelda(1)"></td>
+    <td id="celda2" onclick="tocarCelda(2)"></td>
+    <td id="celda3" onclick="tocarCelda(3)"></td>
+  </tr>
+  <tr>
+    <td id="celda4" onclick="tocarCelda(4)"></td>
+    <td id="celda5" onclick="tocarCelda(5)"></td>
+    <td id="celda6" onclick="tocarCelda(6)"></td>
+  </tr>
+  <tr>
+    <td id="celda7" onclick="tocarCelda(7)"></td>
+    <td id="celda8" onclick="tocarCelda(8)"></td>
+    <td id="celda9" onclick="tocarCelda(9)"></td>
+  </tr>
+</table>
+<br />
+<div id="mensaje"></div>
+<br />
+<button onclick="reiniciar()">Reiniciar</button>
+<button onclick="agregarNumeros()">Agregar Numeros</button>
+
+CSS
+
+table * {
+  width: 100px;
+  height: 100px;
+  outline: 1px solid #000;
+  text-align: center;
+  position: relative;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+td.cruz::after,
+td.circulo::before {
+  position: absolute;
+  font-size: 50px;
+  inset: 22px 0;
+  margin: auto;
+  opacity: 0;
+  animation: appear 0.5s forwards;
+}
+td.cruz::after {
+  content: "X";
+}
+td.circulo::before {
+  content: "O";
+  animation-delay: 0.5s;
+}
+
+
+JS
+
+const marcaJugador = "cruz";
+const marcaOponente = "circulo";
+
+function conseguirCelda(numero) {
+ return document.querySelector("#celda" + numero)
+  // 1. Devolver el elemento con id "clase"+numero
+ // tip: acceso a elementos
+}
+
+function agregarNumeros() {
+  for (let i = 1; i <= 9; i++) {
+    const celda = conseguirCelda(i);
+    // 2. Agregar el numero "i" como texto de la celda
+    
+ celda.textContent = i; // tip: modificación de contenido
+  }
+}
+document.body.onload = agregarNumeros;
+
+function estaOcupada(numeroDeCelda) {
+  const celda = conseguirCelda(numeroDeCelda);
+  const tieneCruz = celda.classList.contains(marcaJugador);
+  // 3. Verificar si la lista contiene la clase que marca al oponente
+  const tieneCirculo = celda.classList.contains(marcaOponente); // tip: idem jugador, pero con marcaOponente
+  return tieneCruz || tieneCirculo;
+}
+
+function marcarCelda(numeroDeCelda, marca) {
+  const celda = conseguirCelda(numeroDeCelda);
+  // 4. Agregar la marca pasada por parametro como clase
+ celda.classList.add(marca); // tip: modificacion de estilo
+}
+
+function tocarCelda(numeroDeCelda) {
+  if (estaOcupada(numeroDeCelda)) return;
+
+  marcarCelda(numeroDeCelda, marcaJugador);
+
+  turnoDelOponente();
+}
+
+// ----------------------------------------------
+
+function elegirCelda() {
+  for (let i = 1; i <= 9; i++) {
+    const ocupada = estaOcupada(i);
+    if (!ocupada) return i;
+  }
+}
+
+function turnoDelOponente() {
+  const celda = elegirCelda();
+  if (celda) marcarCelda(celda, marcaOponente);
+}
+
+function reiniciar() {
+  for (let i = 1; i <= 9; i++) {
+    const celda = conseguirCelda(i);
+    celda.classList.remove(marcaJugador);
+    // 5. Remover la clase que marca al oponente
+    celda.classList.remove(marcaOponente); // tip: idem jugador, pero con marcaOponente
+  }
+}
