@@ -1,60 +1,60 @@
-html
-head
-titleFormulariostitle
-head
-body
-centerh1Ejercicio 1h1
+<html>
+<head>
+<title> Formularios </title>
+<head>
+<body>
+<center><h1>Ejercicio 1</h1>
   
-  form action=example.php method=post 
-   pNombre
-    input type=text required
-    p
-    pApellido 
-    input type=text required
-    p
-    pDNI
-    input type=number required
-    p
-    pEmail
-    input type=email required
-    p
-        pFecha de nacimiento
-    input type=date required
-    p
+  <form action="example.php" method="post">
+   <p>Nombre
+    <input type="text" required>
+    </p>
+    <p>Apellido 
+    <input type="text" required>
+    </p>
+    <p>DNI
+    <input type="number" required>
+    </p>
+    <p>Email
+    <input type="email" required>
+    </p>
+        <p>Fecha de nacimiento
+    <input type="date" required>
+    </p>
     
-    pEstado Civilp
-        input type=radio name=EC value=SSolteroinput
-    input type=radio name=EC value=CCasadoinput
-    input type=radio name=EC value=DDivorciadoinput
-    input type=radio name=EC value=VViudainput
-    input type=radio name=EC value=CVConvivienteinput
+    <p>Estado Civil<p>
+        <input type="radio" name="EC" value="S">Soltero</input>
+    <input type="radio" name="EC" value="C">Casado</input>
+    <input type="radio" name="EC" value="D">Divorciado</input>
+    <input type="radio" name="EC" value="V">Viuda</input>
+    <input type="radio" name="EC" value="CV">Conviviente</input>
 
-pInteresesp
-input type=checkbox nameintereses value=Culturalesinput
-input type=checkbox nameintereses value=Deportivosinput
-input type=checkbox nameintereses value=Turisticosinput
-input type=checkbox nameintereses value=Socialesinput
-input type=checkbox nameintereses value=Otrosinput
+<p>Intereses</p>
+<input type="checkbox" name="intereses" value="Culturales">Culturales</input>
+<input type="checkbox" name="intereses" value="Deportivos">Deportivos</input>
+<input type="checkbox" name="intereses" value="Turisticos">Turisticos</input>
+<input type="checkbox" name="intereses" value="Sociales">Sociales</input>
+<input type="checkbox" name="intereses" value="Otros">Otros</input>
 
-pDescripcion de interesesp
+<p>Descripcion de intereses</p>
 
-  textarea  cols=50 rows=10 maxlength=400textarea
+  <textarea  cols=50 rows=10 maxlength=400></textarea>
 
 
-pPais de residenciap
-    input type=radio name=PR value=ARGArgentinainput
-    input type=radio name=PR value=BOLBoliviainput
-    input type=radio name=PR value=CHIChileinput
-    input type=radio name=PR value=COLColombiainput
-    input type=radio name=PR value=BRABrasilinput
+<p>Pais de residencia</p>
+    <input type="radio" name="PR" value="ARG">Argentina</input>
+    <input type="radio" name="PR" value="BOL">Bolivia</input>
+    <input type="radio" name="PR" value="CHI">Chile</input>
+    <input type="radio" name="PR" value="COL">Colombia</input>
+    <input type="radio" name="PR" value="BRA">Brasil</input>
     
-   pRecibir informacion adicionalp
-input checked type=checkbox name=IA value=INFOAinput
+   <p>Recibir informacion adicional</p>
+<input checked type="checkbox" name="IA" value="INFOA"></input>
     
     
-brinput type=submit value=enviar input
-      input type=image value=enviar src=httpsraw.githubusercontent.commdnlearning-areamasterhtmlformsimage-type-examplelogin.pnginput
-  form
-center
-body
-html
+<br><input type="submit" value="enviar"></input>
+      <input type="image" value="enviar" src="httpsraw.githubusercontent.commdnlearning-areamasterhtmlformsimage-type-examplelogin.png"></input>
+  </form>
+</center>
+</body>
+</html>
